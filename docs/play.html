@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Auto Music</title>
+    <style>
+      body {
+        margin: 0;
+        text-align: center;
+        padding-top: 100px;
+        font-family: sans-serif;
+      }
+      button {
+        font-size: 20px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="document.getElementById('my-audio').play()">🎵 음악 재생하기</button>
+
+    <audio id="my-audio" loop>
+      <source src="https://cdn.pixabay.com/download/audio/2025/07/25/audio_9bd2cf06fa.mp3?filename=no-copyright-music-soft-background-380873.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </body>
+</html>
